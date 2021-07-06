@@ -9,10 +9,10 @@ body{font-family: 'Poppins', sans-serif}
 h1{font-size: 70px ;
 margin-bottom: 0%;
 margin-top: 0%;
-color: gray
-;
+
+
 }
-p{font-size: 19px;
+.special-p{font-size: 19px;
 font-weight: 600;
 color: gray;}
 .link-button{
@@ -20,11 +20,37 @@ color: gray;}
     background-image: linear-gradient(orange, tomato);
     color: white;
     padding: 20px 30px;
-    border-radius: 30px;
-   
+    border-radius: 30px;}
 
-   
-}
 #description-1st-container{margin-top: 120px;
 margin-left: 50px;}
 span{color: orange;}
+h1,h2{color: gray;}
+h2{font-size: 40px;}
+
+.middle-section{background-image: url(images/7.png);
+    background-size:cover;
+}
+.middle-section div img{margin-top: 50px;}
+.last-section h2, .last-section p{text-align: center;}
+.recipies{width: 30%;
+margin: 10px 20px;
+box-shadow: 10px 10px 40px gray;
+border-radius: 20px;}
+
+.my-recipies{display: flex;}
+.recipy-image img{padding-right: 20%;
+padding-left: 5%;
+padding-top: 5%;
+height: 400px;
+width: 400px;}
+.recipy-image{border-radius: 20px;}
+.food-info{padding-left: 5%;}
+.last-note{background-color:black;}
+footer{text-align: center;
+height: 200px;}
+footer p{color: white;}
+body h1{text-align: center;}
+
+
+
